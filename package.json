@@ -1,11 +1,27 @@
 {
-"name": "NWJS",
-"version": "1.0.0",
-"description": "",
-"main": "index.html",
-"scripts": {
-"test": "echo \"Error: no test specified\" && exit 1"
-},
-"author": "",
-"license": "ISC"
+  "name": "NWJS",
+  "version": "1.0.0",
+  "description": "An NW.js Demonstration App",
+  "main": "index.html",
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "J.S. Leonard",
+  "license": "ISC",
+  "window": {
+    "show": true,
+    "show_in_taskbar": true,
+    "transparent": false,
+    "resizable": true,
+    "toolbar": false,
+    "frame": true,
+    "always-on-top": false,
+    "visible-on-all-workspaces": true,
+    "width": 300,
+    "height": 500,
+    "min_width": 250,
+    "min_height": 500,
+    "max_width": 350,
+    "max_height": 550
+  }
 }
