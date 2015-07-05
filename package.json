@@ -4,7 +4,7 @@
   "description": "An NW.js Demonstration App",
   "main": "index.html",
   "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "J.S. Leonard",
   "license": "ISC",
@@ -23,5 +23,10 @@
     "min_height": 500,
     "max_width": 350,
     "max_height": 550
+  },
+  "dependencies": {
+    "babel-core": "^5.6.15",
+    "babel-loader": "^5.3.1",
+    "webpack": "^1.10.1"
   }
 }
