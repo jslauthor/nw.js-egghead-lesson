@@ -46,9 +46,13 @@
 
 	'use strict';
 
-	var Bootstrap = __webpack_require__(4);
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var b = new Bootstrap();
+	var _configBootstrap = __webpack_require__(4);
+
+	var _configBootstrap2 = _interopRequireDefault(_configBootstrap);
+
+	var b = new _configBootstrap2['default']();
 	b.initialize();
 
 /***/ },
