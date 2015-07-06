@@ -1,6 +1,6 @@
-var gui = require('nw.gui')
-var React = require('react')
-var Main = require('../views/Main.jsx')
+import gui from 'nw.gui'
+import React  from 'react'
+import Main from '../views/Main.jsx'
 
 class Bootstrap {
 
